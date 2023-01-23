@@ -1,0 +1,149 @@
+html{
+    font-family: 'Varela Round', sans-serif;
+
+}
+*{
+    color: black;
+  
+}
+.container-main{
+    width: 80%;
+    margin: 0px auto;
+   
+   
+}
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+.logotipo{
+    width: 128px;
+    height: 128px;
+  
+}
+.menu-central{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.link-menu{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+
+}
+.link-menu:hover{
+
+background-color: aqua;
+}
+.botao-contactar{
+    box-shadow: -4px 0px 15px -4px rgb(0 0 0 / 34%);
+    background-color: rgb(0, 255, 21);
+    border-radius: 10px;
+    width: 109.87px;
+    height: 37px;
+  justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+.link-contactar{
+    text-decoration:none;
+    font-size: 14.65px;
+    color:white;
+}
+
+.container-titulo-principal{
+    margin-top: 100px;
+    display: flex;
+
+}
+.titulo-pricipal{
+    font-size: 55.92px;
+    text-align: center;
+}
+#amarelo{
+    color: yellow;
+
+}
+
+.container-imagens-ilustrativas{
+    margin-top: 100px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.imagens-ilustrativas{
+    width:216px ;
+    height:216px ;
+    align-items: center;
+    border: 5px solid yellow;
+    border-radius: 110px;
+    object-fit: cover;
+}
+.imagens-ilustrativas:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(1.2);
+}
+
+.container-info_imagem-sobre{
+   margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.imagem-sobre{
+    width: 445.55px;
+    height: 764.39px;
+    border-radius: 30px;
+    box-shadow: -4px 0px 15px -4px rgb(0 0 0 / 34%);
+}
+.titulo-sobre{
+    font-size: 49px;
+
+}
+
+.container-info-sobre{
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: -60px;
+    width: 573px;
+    height: 338px; 
+    background: white;
+    box-shadow: -4px 0px 15px -4px rgb(0 0 0 / 34%);
+
+}
+.info-sobre{
+    text-align: justify;
+    color: #666666;
+    
+}
+.container-rodape{
+    display: flex;
+    background: black;
+    border-radius: 20px;
+    height:80px ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link-rodape{
+    width:60px ;
+    height:60px ;
+    border-radius: 50px;
+    
+}
+@media (max-width: 500px)
+{
+  .container-main
+   {
+    flex-direction: column;
+    display: flex;
+   }
+}
